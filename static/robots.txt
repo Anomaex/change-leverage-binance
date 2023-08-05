@@ -1,5 +1,4 @@
 User-agent: *
-Disallow: /_app/
 
 Host: https://leverage.ucan.trade/
 Sitemap: https://leverage.ucan.trade/sitemap.xml
