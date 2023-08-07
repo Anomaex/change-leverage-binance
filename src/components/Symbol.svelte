@@ -40,6 +40,9 @@
     <td>
         <input type="number" min="1" max="{symbol.maxLeverage}" bind:value={leverage}/>
     </td>
+    <td>
+        {symbol.maxLeverage}
+    </td>
     <td class="no-select">
         <button on:click={changeLeverageBtnClick} disabled={isBlocked}>Change</button>
     </td>

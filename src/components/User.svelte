@@ -85,6 +85,7 @@
                         <th>Symbol</th>
                         <th>Margin Type</th>
                         <th></th>
+                        <th>Leverage</th>
                         <th>Max Leverage</th>
                         <th></th>
                     </tr>
