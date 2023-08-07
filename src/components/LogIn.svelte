@@ -40,13 +40,16 @@
             <tr>
                 <td>
                     <label for="key" class="no-select">Key</label>
-                    <input class="log-in-input" name="key" id="key" bind:value={key} disabled={isBlocked}/>
+                    <input name="key" id="key" bind:value={key} disabled={isBlocked}/>
                 </td>
             </tr>
             <tr>
-                <td style="padding-top: 10px;">
+                <td style="height: 10px;"></td>
+            </tr>
+            <tr>
+                <td>
                     <label for="secret" class="no-select">Secret</label>
-                    <input class="log-in-input" name="secret" id="secret" bind:value={secret} disabled={isBlocked}/>
+                    <input name="secret" id="secret" bind:value={secret} disabled={isBlocked}/>
                 </td>
             </tr>
             <tr>
@@ -59,7 +62,8 @@
     <div class="how-to-info">
         <p><span style="font-size: 16px;">How To:</span><br>
             1) In your API restrictions on <b>Binance</b>, you need to enable "Enable <b>Futures</b>" checkbox.<br>
-            2) Enter your API key and secret in the form, then simply click the 'Log In' button.
+            2) Enter your API key and secret in the form, then simply click the 'Log In' button.<br><br>
+            or you can watch <a href="https://youtu.be/Gd7kRUapad4" target="_blank" title="Video Tutorial" style="font-size: 16px;">Video Tutorial on YouTube</a>.
         </p>
     </div>
     <div class="donate">
