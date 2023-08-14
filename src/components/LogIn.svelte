@@ -27,11 +27,11 @@
 
 <div class="log-in-container">
     <div class="header">
-        <h1>Change leverage and margin type on Binance Futures</h1>
+        <h1>Change leverage and margin mode on Binance Futures</h1>
     </div>
     <div class="header-info">
         <h2>&#9752; It's Free, No Data Collection, Secure.</h2>
-        <h3>&#9752; Switching leverage and margin types for each coin on Binance Futures is now trouble-free.<br>
+        <h3>&#9752; Switching leverage and margin mode for each coin on Binance Futures is now trouble-free.<br>
             &#9752; Use this service to make changes across all coins with a single click.</h3>
         <p>&#9752; May your <b>trading</b> be successful, your mood be uplifted, and your day be fantastic!</p>
     </div>
@@ -69,15 +69,15 @@
     <div class="donate">
         <p>If my service has been helpful to you and you'd like to express your gratitude, I'd greatly appreciate it:</p>
         <p style="margin-top: 20px;">
-            <a href="https://www.paypal.com/donate/?hosted_button_id=TE69K2FPETFGQ" target="_blank" title="PayPal Donate"><img src="/paypal-donate-icon.png" alt="Change leverage and margin type on Binance Futures, PayPal donate button." title="PayPal Donate" width="128" height="64"/></a>
-            <a href="https://leverage.ucan.trade/binance-pay-qr.png" target="_blank" title="Binance Pay"><img src="/binance-pay-qr-icon.png" alt="Change leverage and margin type on Binance Futures, Binance Pay QR." title="Binance Pay" width="128" height="64"/></a>
-            <a href="https://send.monobank.ua/jar/8BXNYQZCuR" target="_blank" title="monobank and Google Pay"><img src="/monobank-gpay-icon.png" alt="Change leverage and margin type on Binance Futures, monobank and Google Pay." title="monobank and Google Pay" width="128" height="64"/></a>
+            <a href="https://www.paypal.com/donate/?hosted_button_id=TE69K2FPETFGQ" target="_blank" title="PayPal Donate"><img src="/paypal-donate-icon.png" alt="Change leverage and margin mode on Binance Futures, PayPal donate button." title="PayPal Donate" width="128" height="64"/></a>
+            <a href="https://leverage.ucan.trade/binance-pay-qr.png" target="_blank" title="Binance Pay"><img src="/binance-pay-qr-icon.png" alt="Change leverage and margin mode on Binance Futures, Binance Pay QR." title="Binance Pay" width="128" height="64"/></a>
+            <a href="https://send.monobank.ua/jar/8BXNYQZCuR" target="_blank" title="monobank and Google Pay"><img src="/monobank-gpay-icon.png" alt="Change leverage and margin mode on Binance Futures, monobank and Google Pay." title="monobank and Google Pay" width="128" height="64"/></a>
         </p>
     </div>
     <div class="footer">
         <p>Support: 
-            <a href="mailto:anomaex@gmail.com" title="Write to Email" ><img src="/email-support-icon.png" alt="Change leverage and margin type on Binance Futures, email support icon." title="Write to Email" width="26" height="26"/></a>
-            <a href="https://t.me/Anomaex" target=”_blank” title="Write to Telegram" ><img src="/telegram-support-icon.png" alt="Change leverage and margin type on Binance Futures, telegram support icon." title="Write to Telegram" width="26" height="26"/></a></p>
+            <a href="mailto:anomaex@gmail.com" title="Write to Email" ><img src="/email-support-icon.png" alt="Change leverage and margin mode on Binance Futures, email support icon." title="Write to Email" width="26" height="26"/></a>
+            <a href="https://t.me/Anomaex" target=”_blank” title="Write to Telegram" ><img src="/telegram-support-icon.png" alt="Change leverage and margin mode on Binance Futures, telegram support icon." title="Write to Telegram" width="26" height="26"/></a></p>
     </div>
 </div>
 
