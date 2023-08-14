@@ -48,7 +48,7 @@
             <td class="user-header border-bottom">
                 <table>
                     <tr>
-                        <td class="fill-td"><p class="no-select" style="padding-left: 20px;">Change leverage and margin type on Binance Futures.</p></td>
+                        <td class="fill-td"><p class="no-select" style="padding-left: 20px;">Change leverage and margin mode on Binance Futures.</p></td>
                         <td><button class="no-select" on:click={logOutBtnClick} disabled={isBlocked}>Log Out</button></td>
                     </tr>
                 </table>
@@ -64,7 +64,7 @@
                     </tr>
                     <tr style="height: 20px;"></tr>
                     <tr>
-                        <td class="txt-left no-select">Change margin type to All</td>
+                        <td class="txt-left no-select">Change margin mode to All</td>
                         <td class="no-select">
                             <select bind:value={marginTypeToAll}>
                                 <option value="CROSSED" selected>Cross</option>
@@ -83,7 +83,7 @@
                 <table class="list-table">
                     <tr class="no-select">
                         <th>Symbol</th>
-                        <th>Margin Type</th>
+                        <th>Margin Mode</th>
                         <th></th>
                         <th>Leverage</th>
                         <th>Max Leverage</th>
