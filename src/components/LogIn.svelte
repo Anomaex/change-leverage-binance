@@ -70,7 +70,7 @@
         <p>If my service has been helpful to you and you'd like to express your gratitude, I'd greatly appreciate it:</p>
         <p style="margin-top: 20px;">
             <a href="https://www.paypal.com/donate/?hosted_button_id=TE69K2FPETFGQ" target="_blank" title="PayPal Donate"><img src="/paypal-donate-icon.png" alt="Change leverage and margin mode on Binance Futures, PayPal donate button." title="PayPal Donate" width="128" height="64"/></a>
-            <a href="https://leverage.ucan.trade/binance-pay-qr.png" target="_blank" title="Binance Pay"><img src="/binance-pay-qr-icon.png" alt="Change leverage and margin mode on Binance Futures, Binance Pay QR." title="Binance Pay" width="128" height="64"/></a>
+            <a href="https://anomaex.pages.dev/binance-pay-qr.png" target="_blank" title="Binance Pay"><img src="/binance-pay-qr-icon.png" alt="Change leverage and margin mode on Binance Futures, Binance Pay QR." title="Binance Pay" width="128" height="64"/></a>
             <a href="https://send.monobank.ua/jar/8BXNYQZCuR" target="_blank" title="monobank and Google Pay"><img src="/monobank-gpay-icon.png" alt="Change leverage and margin mode on Binance Futures, monobank and Google Pay." title="monobank and Google Pay" width="128" height="64"/></a>
         </p>
     </div>
