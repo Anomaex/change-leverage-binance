@@ -1,4 +1,4 @@
 User-agent: *
 
-Host: https://leverage.ucan.trade/
-Sitemap: https://leverage.ucan.trade/sitemap.xml
+Host: https://change-leverage-binance.pages.dev/
+Sitemap: https://change-leverage-binance.pages.dev/sitemap.xml
