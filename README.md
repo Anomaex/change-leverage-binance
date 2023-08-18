@@ -3,7 +3,7 @@ Change leverage and margin mode on Binance Futures.
 
 ## Online
 
-[https://change-leverage-binance.pages.dev](https://change-leverage-binance.pages.dev)
+[change-leverage-binance.pages.dev](https://change-leverage-binance.pages.dev)
 
 ## License
 
