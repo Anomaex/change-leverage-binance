@@ -1,5 +1,5 @@
 <script>
-	import { onMount } from "svelte";
+    import { onMount } from "svelte";
     import { userData } from "../lib/store";
     import { getAllSymbolsAndMaxLeverages } from "../lib/api-handler";
 
@@ -62,9 +62,8 @@
     <div class="how-to-info">
         <p><span style="font-size: 16px;">How To:</span><br>
             1) In your API restrictions on <b>Binance</b>, you need to enable "Enable <b>Futures</b>" checkbox.<br>
-            2) Enter your API key and secret in the form, then simply click the 'Log In' button.<br><br>
-            or you can watch <a href="https://youtu.be/Gd7kRUapad4" target="_blank" title="Video Tutorial" style="font-size: 16px;">Video Tutorial on YouTube</a>.
-        </p>
+            2) Enter your API key and secret in the form, then simply click the 'Log In' button.
+	</p>
     </div>
     <div class="donate">
         <p>If my service has been helpful to you and you'd like to express your gratitude, I'd greatly appreciate it:</p>
