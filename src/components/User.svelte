@@ -30,7 +30,7 @@
         if (isBlocked || !marginTypeToAll || marginTypeToAll.length > 9) return;
         isBlocked = true;
         symbols.forEach(async el => {
-            await changeSymbolMarginType(el.symbol + "USDT", marginTypeToAll);
+            await changeSymbolMarginType(el.symbol, marginTypeToAll);
         });
         setTimeout(() => {
             isBlocked = false;
@@ -76,6 +76,7 @@
                         </td>
                     </tr>
                 </table>
+                <p style="padding: 5px 20px 40px 20px;">If you have enabled <b>Multi-Assets</b> mode in your account you don't need to change Margin Mode!</p>
             </td>
         </tr>
         <tr>
@@ -119,7 +120,7 @@
     .to-all-table {
         text-align: center;
         padding-top: 40px;
-        padding-bottom: 40px;
+        padding-bottom: 5px;
         padding-left: 20px;
         padding-right: 20px;
     }

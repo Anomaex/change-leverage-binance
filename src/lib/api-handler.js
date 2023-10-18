@@ -8,10 +8,11 @@ export async function getAllSymbolsAndMaxLeverages(key, secret) {
     if (symbols.length > 0)
         symbols.length = 0;
     const newSymbols = [];
+    console.log(result.symbols.length);
     for (let i = 0; i < result.symbols.length; i++) {
         const el = result.symbols[i];
-        if (el.marginAsset === "USDT" && el.quoteAsset === "USDT" && el.status === "TRADING" && el.contractType === "PERPETUAL")
-            newSymbols.push(el.baseAsset);
+        if (el.symbol)
+            newSymbols.push(el.symbol);
     }
     newSymbols.sort();
     for (let i = 0; i < newSymbols.length; i++)
@@ -29,7 +30,7 @@ export async function getAllSymbolsAndMaxLeverages(key, secret) {
     result = await response.json();
     for (let i = 0; i < symbols.length; i++) {
         const el = symbols[i];
-        const value = result.find(x => x.symbol === el.symbol + "USDT");
+        const value = result.find(x => x.symbol === el.symbol);
         if (value)
             el.maxLeverage = value.brackets[0].initialLeverage;
     }
@@ -42,7 +43,7 @@ function getTimestamp() {
 
 export async function changeSymbolLeverage(element, leverage) {
     const newLeverage = leverage <= element.maxLeverage ? leverage : element.maxLeverage; 
-    let request = `symbol=${element.symbol + "USDT"}&leverage=${newLeverage}&timestamp=${getTimestamp()}`;
+    let request = `symbol=${element.symbol}&leverage=${newLeverage}&timestamp=${getTimestamp()}`;
     request += `&signature=${getSignature(request, userData.secret)}`;
     const response = await fetch(URLs.BINANCE_API + URLs.LEVERAGE, {
         method: "POST",
