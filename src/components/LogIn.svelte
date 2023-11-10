@@ -69,7 +69,7 @@
         <p>Support: 
             <a href="mailto:anomaex@gmail.com" title="Write to Email" ><img src="/email-support-icon.png" alt="Change leverage and margin mode on Binance Futures, email support icon." title="Write to Email" width="26" height="26"/></a>
             <a href="https://t.me/Anomaex" target=”_blank” title="Write to Telegram" ><img src="/telegram-support-icon.png" alt="Change leverage and margin mode on Binance Futures, telegram support icon." title="Write to Telegram" width="26" height="26"/></a>
-			<a href="https://github.com/Anomaex/change-leverage-binance" title="Github source code" ><img src="/github-icon.png" alt="Change leverage and margin mode on Binance Futures, GitHub icon." title="Github source code" width="26" height="26"/></a>
+	    <a href="https://github.com/Anomaex/change-leverage-binance" target=”_blank” title="Github source code" ><img src="/github-icon.png" alt="Change leverage and margin mode on Binance Futures, GitHub icon." title="Github source code" width="26" height="26"/></a>
         </p>
 	</div>
 </div>
