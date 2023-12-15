@@ -17,7 +17,7 @@ export async function getAllSymbolsAndMaxLeverages(key, secret) {
     newSymbols.sort();
     for (let i = 0; i < newSymbols.length; i++)
         symbols.push({ symbol: newSymbols[i], maxLeverage: 1 });
-    let request = "timestamp=" + getTimestamp();
+    let request = "timestamp=" + await getTimestampAsync();
     request += "&signature=" + getSignature(request, secret);
     response = await fetch(URLs.BINANCE_API + URLs.LEVERAGE_BRACKET + '?' + request, {
         method: "GET",
@@ -37,13 +37,18 @@ export async function getAllSymbolsAndMaxLeverages(key, secret) {
     return true;
 }
 
-function getTimestamp() {
-    return Date.now() - 1000;
+async function getTimestampAsync() {
+    if (userData.recvWindow == 0) {
+        let response = await fetch(URLs.BINANCE_API + URLs.SERVER_TIME);
+        let result = await response.json();
+        userData.recvWindow = Math.abs(result["serverTime"] - Date.now());
+    }
+    return Date.now() - userData.recvWindow;
 }
 
 export async function changeSymbolLeverage(element, leverage) {
     const newLeverage = leverage <= element.maxLeverage ? leverage : element.maxLeverage; 
-    let request = `symbol=${element.symbol}&leverage=${newLeverage}&timestamp=${getTimestamp()}`;
+    let request = `symbol=${element.symbol}&leverage=${newLeverage}&timestamp=${await getTimestampAsync()}`;
     request += `&signature=${getSignature(request, userData.secret)}`;
     const response = await fetch(URLs.BINANCE_API + URLs.LEVERAGE, {
         method: "POST",
@@ -58,7 +63,7 @@ export async function changeSymbolLeverage(element, leverage) {
 }
 
 export async function changeSymbolMarginType(symbol, marginType) {
-    let request = `symbol=${symbol}&marginType=${marginType}&timestamp=${getTimestamp()}`;
+    let request = `symbol=${symbol}&marginType=${marginType}&timestamp=${await getTimestampAsync()}`;
     request += `&signature=${getSignature(request, userData.secret)}`;
     const response = await fetch(URLs.BINANCE_API + URLs.MARGIN_TYPE, {
         method: "POST",
