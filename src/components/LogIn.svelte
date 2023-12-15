@@ -133,16 +133,6 @@
         padding-right: 50px;
     }
 
-    .donate {
-        border-bottom: 1px solid #c4c4c4;
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-
-    .donate p {
-        text-align: center;
-    }
-
     .footer {
         padding-top: 30px;
         padding-bottom: 30px;
